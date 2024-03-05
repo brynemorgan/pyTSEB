@@ -1,0 +1,48 @@
+# Input files
+input_file=/Users/brynmorgan/dev/pyTSEB/Input/Ramajal_Tower.csv
+
+# Output file
+output_file=/Users/brynmorgan/dev/pyTSEB/Output/RamajalOutput.txt
+
+# Model Selection
+model=TSEB_PT
+
+# Site Description
+lat=34.52663074
+lon=-120.41604806
+alt=160.329
+stdlon=-8.0
+z_u=3.8735
+z_T=3.8735
+
+# Spectral Properties
+emis_C=0.98
+emis_S=0.95
+rho_vis_C=0.07
+rho_nir_C=0.32
+tau_vis_C=0.08
+tau_nir_C=0.33
+tau_nir_C=0.33
+rho_vis_S=0.15
+rho_nir_S=0.25
+
+# Surface Properties
+alpha_PT=1.26
+x_LAD=1.0
+leaf_width=0.1
+z0_soil=0.01
+landcover=10
+
+# Additional Options
+resistance_form=0
+KN_b=0.012
+KN_c=0.0038
+KN_C_dash=90.0
+calc_row=0
+row_az=90.0
+G_form=1
+G_constant=0.0
+G_ratio=0.35
+G_amp=0.35
+G_phase=3.0
+G_shape=24.0
